@@ -207,7 +207,7 @@ textarea {
 /* Home Banner Start */
 
 #home-banner {
-    background: url('/Website\ Images/Home Banner Background.png');
+    background: url('Home Banner Background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -525,7 +525,7 @@ textarea {
     }
 
     #home-banner {
-        background: url('/Website\ Images/Home Banner Background.png');
+        background: url('Home Banner Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -800,7 +800,7 @@ textarea {
     }
 
     #home-banner {
-        background: url('/Website\ Images/Home Banner Background.png');
+        background: url('Home Banner Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1089,7 +1089,7 @@ textarea {
     }
 
     #home-banner {
-        background: url('/Website\ Images/Home Banner Background.png');
+        background: url('Home Banner Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -1468,7 +1468,7 @@ textarea {
     }
 
     #home-banner {
-        background: url('/Website\ Images/Home Banner Background.png');
+        background: url('Home Banner Background.png');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
