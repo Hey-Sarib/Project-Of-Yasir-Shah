@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Project Of Muhammad Sarib</title>
+  <!-- Css File -->
+  <link rel="stylesheet" href="Css/style.css">
+  <!-- Bootstrap Css File -->
+  <link rel="stylesheet" href="Css/bootstrap.min.css">
+  <!-- Bootstrap CDN Icon Link -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+  <!-- Navbar Start -->
+  <nav id="navbar-1-of-website" class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <!-- Logo Start -->
+      <a id="website-logo" class="navbar-brand fs-4" href="index.html"><img src="/Website Logo/Logo.png" alt="Logo"></a>
+      <!-- Logo End -->
+      <!-- Toggle Btn Start -->
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Toggle Btn End -->
+      <!-- Sidebar Start -->
+      <div style="background-color: white; transition: 0.3s ease" class="offcanvas offcanvas-start" tabindex="-1"
+        id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!-- Sidebar End -->
+        <!-- Sidebar Header Start -->
+        <div class="offcanvas-header">
+          <a href="index.html" class="website-logo-2 offcanvas-title" id="offcanvasNavbarLabel"><img
+              src="/Website Logo/Logo.png" alt="Logo"></a>
+          <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <!-- Sidebar Header End -->
+        <!-- Sidebar Body Start -->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+            <li class="nav-item nav-item-header">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item nav-item-header">
+              <a class="nav-link mx-2" href="#">Mock Interview</a>
+            </li>
+            <li class="nav-item nav-item-header">
+              <a class="nav-link mx-2" href="#home-section3">Books</a>
+            </li>
+            <li class="nav-item nav-item-header">
+              <a class="nav-link mx-2" href="#">About Us</a>
+            </li>
+            <li class="nav-item nav-item-header">
+              <a style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#example3Modal"
+                class="nav-link mx-2">Contact Us</a>
+            </li>
+          </ul>
+          <!-- Button Signup Start -->
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+            <button style="border: none; outline: none;" type="button"
+              class="signup-btn-1 text-decoration-none px-4 py-2" data-bs-target="#exampleModal"
+              data-bs-toggle="modal"><i class="bi bi-arrow-right-circle"></i>
+              Signup</button>
+            <!-- Modal Of Signup Start -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content" style="border-radius: 0px;">
+                  <div class="modal-header" style="border: 0;">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h1 class="modal-title1 text-center" id="exampleModalLabel">Sign Up with</h1>
+                    <div class="modal-images d-flex justify-content-center">
+                      <a href="#"><img src="/Website Images/Fb Icon.png" alt="image"></a>
+                      <a href="#"><img src="/Website Images/Google Icon.png" alt="image"></a>
+                      <a href="#"><img src="/Website Images/Linkdin Icon.png" alt="image"></a>
+                      <a href="#"><img src="/Website Images/Github Icon.png" alt="image"></a>
+                    </div>
+                    <h2 class="modal-title2 text-center">OR</h2>
+                    <div class="inputboxesofsignup d-flex flex-column">
+                      <input type="email" name="email" id="email" placeholder="Email*">
+                      <span class="input-span">Please enter your email</span>
+                      <br>
+                      <input type="password" name="password" id="password" placeholder="Password*">
+                      <span class="input-span">Please enter your password</span>
+                      <br>
+                      <input type="password" name="password" id="password" placeholder="Password*">
+                      <span class="input-span">Please enter your password again</span>
+                    </div>
+                  </div>
+                  <div style="border: 0px;"
+                    class="modal-footer d-flex flex-column justify-content-center align-items-center">
+                    <button type="button" onclick="window.location.href='index.html'" class="create-account-btn">Create
+                      Account</button>
+                    <div class="model-buttons d-flex justify-content-center">
+                      <span class="button-span">Already have an account?</span>
+                      <a class="modal-footer-link" href="index.html">Login</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Of Signup End -->
+            <button style="border: none; outline: none;" type="button"
+              class="signup-btn-2 text-decoration-none px-4 py-2" data-bs-target="#example2Modal"
+              data-bs-toggle="modal"><i class="bi bi-person-circle"></i>
+              Signin</button>
+            <!-- Modal Of Signin Start -->
+            <div class="modal fade" id="example2Modal" tabindex="-1" aria-labelledby="example2ModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content" style="border-radius: 0px;">
+                  <div class="modal-header" style="border: 0;">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <h1 class="modal-title1 text-center" id="example2ModalLabel">Sign In with</h1>
+                    <div class="modal-images d-flex justify-content-center">
+                      <a href="#"><img src="/Website Images/Fb Icon.png" alt="image"></a>
+                      <a href="#"><img src="/Website Images/Google Icon.png" alt="image"></a>
+                      <a href="#"><img src="/Website Images/Linkdin Icon.png" alt="image"></a>
+                      <a href="#"><img src="/Website Images/Github Icon.png" alt="image"></a>
+                    </div>
+                    <h2 class="modal-title2 text-center">OR</h2>
+                    <div class="inputboxesofsignin d-flex flex-column">
+                      <input type="email" name="email" id="email" placeholder="Email*">
+                      <span class="input-span">Please enter your email</span>
+                      <br>
+                      <input type="password" name="password" id="password" placeholder="Password*">
+                      <span class="input-span">Please enter your password</span>
+                      <a class="Signin-popup-forgot-btn" href="index.html">Forgot Password?</a>
+                    </div>
+                  </div>
+                  <div style="border: 0px;"
+                    class="modal-footer d-flex flex-column justify-content-center align-items-center">
+                    <button type="button" onclick="window.location.href='index.html'" class="create-account-btn">Sign
+                      In</button>
+                    <div class="model-buttons d-flex justify-content-center">
+                      <span class="button-span">Don’t have an account?</span>
+                      <a class="modal-footer-link" href="index.html">Sign Up</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Modal Of Signin End -->
+          </div>
+          <!-- Button Signup End -->
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Sidebar Body Start -->
+  <!-- Navbar End -->
+
+  <!-- Banner Start -->
+  <div id="home-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex align-items-center">
+          <div class="home-banner-title">
+            <h2 class="home-banner-title-heading1">Ace the</h2>
+            <h2 class="home-banner-title-heading2">Technical</h2>
+            <h1 class="home-banner-title-heading3">INTERVIEW</h1>
+            <hr class="home-banner-hr">
+            <h4 class="home-banner-title-heading4">IT Learning is your gateway to success in the tech world!</h4>
+            <p class="home-banner-text">Are you ready to take your career to new heights?<br>
+              Whether you’re a professional pro aiming for the top tech firms or a newcomer eager to dive into the
+              industry, IT Learning has everything you need to grow.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-center align-items-center">
+          <img class="home-banner-image" src="/Website Images/Home Banner Image.png" alt="image">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Banner End -->
+  <!-- Section 1 Start -->
+  <div id="home-section1">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="home-section1-heading">What Is IT Learning?</h2>
+          <p class="home-section1-text">IT Learning is a complete platform designed to prepare you for the tough demands
+            of technical interviews. Our team is equipped to help you master the skills necessary to excel in interviews
+            and secure your dream tech job.</p>
+          <a target="_blank" href="https://youtu.be/hViTp5Ax5Rs?si=O0aPtt45qQuW96ex"
+            class="home-section1-btn d-flex justify-content-center align-items-center text-decoration-none px-sm-5 py-sm-2"><i
+              class="home-section1-icon bi bi-play-circle-fill"></i>
+            &nbsp;&nbsp;Watch This Video</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section 1 End -->
+  <!-- Section 2 Start -->
+  <div id="home-section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="home-section2-heading">Features Section</h2>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <hr class="home-section2-hr">
+        </div>
+        <div class="col-lg-4 px-lg-2 home-services">
+          <div class="home-section2-services">
+            <img src="/Website Images/Home Service 1 Icon.png" alt="Icon" class="home-section2-service-icon1">
+            <h2 class="home-section2-service-heading">Exclusive Interview Techniques</h2>
+            <p class="home-section2-service-text">Master the art of interviewing with our exclusive techniques. Learn
+              how to approach different types of questions, structure your answers effectively, and impress your
+              interviewers with confidence.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 px-lg-2 home-services">
+          <div class="home-section2-services">
+            <img src="/Website Images/Home Service 2 Icon.png" alt="Icon" class="home-section2-service-icon2">
+            <h2 class="home-section2-service-heading">Real-World Case Studies</h2>
+            <p class="home-section2-service-text">Understand the practical application of your skills through real-world
+              case studies. We provide examples of how top tech companies solve problems, giving you insights into
+              industry standards and practices.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 px-lg-2 home-services">
+          <div class="home-section2-services">
+            <img src="/Website Images/Home Service 3 Icon.png" alt="Icon" class="home-section2-service-icon3">
+            <h2 class="home-section2-service-heading">Expert Authored Content</h2>
+            <p class="home-section2-service-text">Learn from the industry’s top experts. Our ebooks are written by
+              experienced professionals and engineers who share their insights, tips, and real-world experiences to help
+              you succeed.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 px-lg-2 home-services">
+          <div class="home-section2-services">
+            <img src="/Website Images/Home Service 4 Icon.png" alt="Icon" class="home-section2-service-icon4">
+            <h2 class="home-section2-service-heading">Comprehensive Study Guides</h2>
+            <p class="home-section2-service-text">Our study guides cover every topic you need to master for your
+              technical interviews, from data structures and algorithms to system design. Each guide is crafted to
+              ensure you understand the concepts and can apply them in real-world scenarios.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 px-lg-2 home-services">
+          <div class="home-section2-services">
+            <img src="/Website Images/Home Service 5 Icon.png" alt="Icon" class="home-section2-service-icon5">
+            <h2 class="home-section2-service-heading">Expert Insights and Tips</h2>
+            <p class="home-section2-service-text">Learn from the best in the industry. Our resources include insights
+              and tips from experienced software engineers and big tech interviewers who know what it takes to succeed.
+              Get insider knowledge to help you stand out in your interviews.
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 px-lg-2 home-services">
+          <div class="home-section2-services">
+            <img src="/Website Images/Home Service 6 Icon.png" alt="Icon" class="home-section2-service-icon6">
+            <h2 class="home-section2-service-heading">Interactive Practice Problems</h2>
+            <p class="home-section2-service-text">Hands-on practice is crucial for mastering coding interviews. Our
+              platform offers interactive coding problems that simulate real interview conditions, allowing you to
+              practice and improve your problem - solving skills effectively.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section 2 End -->
+  <!-- Section 3 Start -->
+  <div id="home-section3">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="home-section3-heading">Interview Books</h2>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center">
+          <hr class="home-section3-hr">
+        </div>
+        <div class="col-sm-4 px-sm-4 home-cards">
+          <div style="border: none;" class="card">
+            <img src="/Website Images/Section3 Card Image 1.png" class="card-img-top" alt="Image">
+            <div class="card-body px-0 py-3">
+              <h4 class="card-title">Python Interview Success Guide</h4>
+              <div class="card-prices d-flex align-items-center py-1">
+                <h5 class="price-1">$50.00</h5>
+                <h5 class="price-2 px-2 text-decoration-line-through">$70.00</h5>
+              </div>
+              <div class="card-stars d-flex">
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+              </div>
+              <div class="card-btn py-4">
+                <a href="#" class="card-button text-decoration-none">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 px-sm-4 home-cards">
+          <div style="border: none;" class="card">
+            <img src="/Website Images/Section3 Card Image 2.png" class="card-img-top" alt="Image">
+            <div class="card-body px-0 py-3">
+              <h4 class="card-title">React Interview Excellence Guide</h4>
+              <div class="card-prices d-flex align-items-center py-1">
+                <h5 class="price-1">$50.00</h5>
+                <h5 class="price-2 px-2 text-decoration-line-through">$70.00</h5>
+              </div>
+              <div class="card-stars d-flex">
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+              </div>
+              <div class="card-btn py-4">
+                <a href="#" class="card-button text-decoration-none">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 px-sm-4 home-cards">
+          <div style="border: none;" class="card">
+            <img src="/Website Images/Section3 Card Image 3.png" class="card-img-top" alt="Image">
+            <div class="card-body px-0 py-3">
+              <h4 class="card-title">Python Interview Success Guide</h4>
+              <div class="card-prices d-flex align-items-center py-1">
+                <h5 class="price-1">$50.00</h5>
+                <h5 class="price-2 px-2 text-decoration-line-through">$70.00</h5>
+              </div>
+              <div class="card-stars d-flex">
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+              </div>
+              <div class="card-btn py-4">
+                <a href="#" class="card-button text-decoration-none">BUY NOW</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section 3 End -->
+  <!-- Section 4 Start -->
+  <div id="home-section4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 section4-image-section">
+          <img src="/Website Images/Section4 Image.png" alt="Image" class="section4-image">
+        </div>
+        <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
+          <h2 class="home-section4-heading">Mock Interviews</h2>
+          <p class="home-section4-text">Boost your confidence and sharpen your skills with our mock interviews.
+            Conducted by
+            expert engineers and top industry professionals, our mock interviews provide you with realistic interview
+            scenarios, customized feedback, and actionable tips to help you excel in your tech interviews.
+          </p>
+          <a target="_blank" href=""
+            class="home-section1-btn d-flex justify-content-center align-items-center text-decoration-none px-sm-5 py-sm-2">Visit
+            Mock Video</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Section 4 End -->
+  <!-- Website Footer Start -->
+  <div id="website-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <a href="index.html"><img class="website-footer-logo" src="/Website Logo/Logo.png" alt="Logo"></a>
+        </div>
+        <div class="col-sm-3 footer-column">
+          <h2 class="website-footer-heading">About Us</h2>
+          <li class="footer-links"><a href="#">Our Team</a></li>
+          <li class="footer-links"><a href="#">Careers</a></li>
+          <li class="footer-links"><a href="#">Contact Us</a></li>
+          <li class="footer-links"><a href="#">Become Affiliates</a></li>
+        </div>
+        <div class="col-sm-3 footer-column">
+          <h2 class="website-footer-heading">Social</h2>
+          <li class="footer-links"><a href="#">Facebook</a></li>
+          <li class="footer-links"><a href="#">Linkdin</a></li>
+          <li class="footer-links"><a href="#">Twitter</a></li>
+          <li class="footer-links"><a href="#">Youtube</a></li>
+        </div>
+        <div class="col-sm-3 footer-column">
+          <h2 class="website-footer-heading">Local</h2>
+          <li class="footer-links"><a href="#">Privacy Policy</a></li>
+          <li class="footer-links"><a href="#">Cookie Policy</a></li>
+          <li class="footer-links"><a href="#">Terms Of Services</a></li>
+        </div>
+        <div class="col-sm-3">
+          <h2 class="website-footer-heading">Resources</h2>
+          <li class="footer-links"><a href="#">Blog</a></li>
+          <li class="footer-links"><a href="#">Knowledge Base</a></li>
+          <li class="footer-links"><a href="#">Blind 75</a></li>
+          <li class="footer-links"><a href="#">Company Guides</a></li>
+          <li class="footer-links"><a href="#">Answer Hub</a></li>
+          <li class="footer-links"><a href="#">Newsletter</a></li>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Website Footer End -->
+  <!-- Contact Us Popup Form Start -->
+  <div class="modal fade" id="example3Modal" tabindex="-1" aria-labelledby="example3ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content" style="border-radius: 0px;">
+        <div class="modal-header" style="border: 0;">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h1 class="modal-title1 text-center" id="example3ModalLabel">Contact Us</h1>
+          <div class="modal-text text-center">
+            <p class="modal-text-content">Send your message here and we will get back to you as soon as possible.</p>
+          </div>
+          <div class="inputboxesofcontactus d-flex flex-column">
+            <input type="email" name="email" id="email" placeholder="Email*">
+            <br>
+            <input type="text" name="text" id="text" placeholder="Subject">
+            <br>
+            <textarea rows="10">Message</textarea>
+          </div>
+        </div>
+        <div style="border: 0px;"
+          class="modal-footer-contactus d-flex flex-column justify-content-center align-items-center">
+          <button type="button" onclick="window.location.href='index.html'" class="create-account-btn">Send
+            Message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contact Us Popup Form End -->
+  <!-- Bootstrap Javascript File -->
+  <script src="Javascript/bootstrap.min.js"></script>
+</body>
+
+</html>
