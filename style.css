@@ -1,0 +1,1727 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: graphikbold;
+    src: url(/Fonts/GraphikBold.otf);
+}
+
+@font-face {
+    font-family: graphikregular;
+    src: url(/Fonts/GraphikRegular.otf);
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
+}
+
+/* html {
+    scroll-behavior: smooth;
+} */
+
+/* !!! Modal Of Signup */
+.modal-backdrop.show {
+    opacity: var(--bs-backdrop-opacity);
+    z-index: 1000;
+}
+
+.modal-title1 {
+    font-size: 38px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+.modal-images {
+    margin: 20px 0px;
+}
+
+.modal-images img {
+    width: 30px;
+    margin: 0px 15px;
+}
+
+.modal-title2 {
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+input {
+    background-color: #efefef;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: #6c6c6c;
+    font-size: 10px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+}
+
+.input-span {
+    color: #7e7e7e;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    padding-left: 20px;
+}
+
+.modal-footer {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.create-account-btn {
+    background-color: #f6901e;
+    color: white;
+    border-radius: 0px;
+    border: none;
+    padding: 10px 50px;
+    font-size: 22px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+.button-span {
+    color: #7e7e7e;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.modal-footer-link {
+    color: #f6901e;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* !!! Modal Of Signup */
+/* !!! Modal Of Signin */
+.Signin-popup-forgot-btn {
+    text-align: right;
+    color: #056bea;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* !!! Modal Of Signin */
+/* !!! Modal Of Contact Us */
+.modal-text {
+    margin: 20px 0px;
+}
+
+.modal-text-content {
+    font-size: 13.5px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: black;
+}
+
+.modal-footer-contactus {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+textarea {
+    background-color: #efefef;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    color: #6c6c6c;
+    font-size: 10px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 300;
+}
+
+/* !!! Modal Of Conatct Us */
+
+/* Home Header Start */
+#navbar-1-of-website {
+    background-color: white;
+    padding: 10px 0px;
+}
+
+#website-logo img {
+    width: 230px;
+}
+
+.offcanvas-header {
+    border-bottom: 2px solid #f6901e;
+}
+
+.nav-item-header a {
+    color: #393939;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.nav-item-header a:hover {
+    color: #31afe2;
+    border-bottom: 2px solid #f6901e;
+}
+
+.nav-item-header a:is(:link, :active, :visited).active {
+    color: #31afe2;
+    border-bottom: 2px solid #f6901e;
+}
+
+.signup-btn-1 {
+    background-color: #26aae1;
+    color: white;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    margin-right: -25px;
+    border-radius: 7px;
+    z-index: 10;
+}
+
+
+.signup-btn-2 {
+    background-color: #f6901e;
+    color: white;
+    border-radius: 7px;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+}
+
+/* Home Header End */
+
+
+/* Home Banner Start */
+
+#home-banner {
+    background: url('/Website\ Images/Home Banner Background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 72px;
+    padding: 50px 0px;
+}
+
+.home-banner-title {
+    color: white;
+}
+
+.home-banner-title-heading1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1em;
+}
+
+.home-banner-title-heading2 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 0.7em;
+}
+
+.home-banner-title-heading3 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 1em;
+}
+
+.home-banner-hr {
+    width: 50%;
+    border: 2px solid #2baadc;
+    opacity: 100%;
+}
+
+.home-banner-title-heading4 {
+    font-family: graphikbold;
+    font-size: 18px;
+}
+
+.home-banner-text {
+    font-family: graphikregular - sans-serif;
+    font-size: 18px;
+}
+
+.home-banner-image {
+    width: 100%;
+}
+
+/* Home Banner End */
+/* Home Section1 Start */
+#home-section1 {
+    padding: 50px 0px;
+}
+
+.home-section1-heading {
+    font-size: 58px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #393939;
+}
+
+.home-section1-text {
+    font-family: graphikregular - sans-serif;
+    font-size: 18px;
+    width: 70%;
+    text-align: center;
+    color: #393939;
+}
+
+.home-section1-btn {
+    background-color: #f6901e;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+.home-section1-icon {
+    font-size: 25px;
+}
+
+/* Home Section1 End */
+/* Home Section2 Start */
+#home-section2 {
+    padding: 50px 0px;
+}
+
+.home-section2-heading {
+    font-size: 58px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    color: #393939;
+}
+
+.home-section2-hr {
+    width: 100%;
+    border: 2px solid #f6901e;
+    opacity: 100%
+}
+
+.home-services {
+    padding-top: 20px;
+}
+
+.home-section2-services {
+    border: 2px solid #bcbcbc;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.home-section2-service-icon1 {
+    margin: 20px 0px;
+    width: 70px;
+}
+
+.home-section2-service-icon2 {
+    margin: 20px 0px;
+    width: 70px;
+}
+
+.home-section2-service-icon3 {
+    margin: 20px 0px;
+    width: 70px;
+}
+
+.home-section2-service-icon4 {
+    margin: 20px 0px;
+    width: 70px;
+}
+
+.home-section2-service-icon5 {
+    margin: 20px 0px;
+    width: 70px;
+}
+
+.home-section2-service-icon6 {
+    margin: 20px 0px;
+    width: 60px;
+}
+
+.home-section2-service-heading {
+    font-size: 17px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    color: #212121;
+}
+
+.home-section2-service-text {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: justify;
+    color: #212121;
+}
+
+/* Home Section2 End */
+/* Home Section3 Start */
+#home-section3 {
+    padding: 50px 0px;
+}
+
+.home-section3-heading {
+    font-size: 58px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    text-align: left;
+    color: #393939;
+}
+
+.home-section3-hr {
+    width: 100%;
+    border: 2px solid #f6901e;
+    opacity: 100%
+}
+
+.home-cards {
+    padding-top: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: #393939;
+}
+
+.price-1 {
+    color: #393939;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+.price-2 {
+    color: #777777;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+.card-button {
+    background-color: #26aae1;
+    color: white;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+
+/* Home Section3 End */
+/* Home Section4 Start */
+#home-section4 {
+    padding: 50px 0px;
+    background-color: #f3f7fb;
+}
+
+.section4-image {
+    width: 100%;
+    margin-left: -18px;
+}
+
+.home-section4-heading {
+    font-size: 58px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #393939;
+}
+
+.home-section4-text {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: justify;
+    color: #393939;
+}
+
+.home-section4-btn {
+    background-color: #f6901e;
+    color: white;
+    border-radius: 50px;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+/* Home Section4 End */
+/* Website Footer Start */
+#website-footer {
+    background-color: #d7d7d7;
+    padding: 50px 0px;
+}
+
+.website-footer-logo {
+    width: 230px;
+    margin-bottom: 25px;
+}
+
+.website-footer-heading {
+    font-size: 28px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #383838;
+}
+
+.footer-links {
+    list-style: none;
+    padding-bottom: 7px;
+}
+
+.footer-links a {
+    color: #383838;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+/* Website Footer End */
+@media (min-width: 992px) and (max-width: 1230px) {
+    .nav-item-header a {
+        color: #393939;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+    .signup-btn-1 {
+        background-color: #26aae1;
+        color: white;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        margin-right: -25px;
+        border-radius: 7px;
+        z-index: 10;
+    }
+
+    .signup-btn-2 {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 7px;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+    }
+
+    #home-banner {
+        background: url('/Website\ Images/Home Banner Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 73px;
+        padding: 50px 0px;
+    }
+
+    .home-banner-title {
+        color: white;
+    }
+
+    .home-banner-title-heading1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 1em;
+    }
+
+    .home-banner-title-heading2 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 38px;
+        line-height: 0.7em;
+    }
+
+    .home-banner-title-heading3 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 58px;
+        line-height: 1em;
+    }
+
+    .home-banner-hr {
+        width: 50%;
+        border: 2px solid #2baadc;
+        opacity: 100%;
+    }
+
+    .home-banner-title-heading4 {
+        font-family: graphikbold;
+        font-size: 18px;
+    }
+
+    .home-banner-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 18px;
+    }
+
+    .home-banner-image {
+        width: 100%;
+    }
+
+    #home-section1 {
+        padding: 50px 0px;
+    }
+
+    .home-section1-heading {
+        font-size: 52px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .home-section1-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 18px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .home-section1-btn {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+    }
+
+    .home-section1-icon {
+        font-size: 25px;
+    }
+
+    #home-section2 {
+        padding: 50px 0px;
+    }
+
+    .home-section2-heading {
+        font-size: 52px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .home-section2-hr {
+        width: 100%;
+        margin: 10px auto;
+        border: 2px solid #f6901e;
+        opacity: 100%
+    }
+
+    .home-services {
+        padding-top: 20px;
+    }
+
+    .home-section2-services {
+        border: 2px solid #bcbcbc;
+        padding: 20px;
+        border-radius: 7px;
+    }
+
+    .home-section2-service-heading {
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+    }
+
+    .home-section2-service-text {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #home-section3 {
+        padding: 50px 0px;
+    }
+
+    .home-section3-heading {
+        font-size: 52px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .home-section3-hr {
+        width: 100%;
+        margin: 10px auto;
+        border: 2px solid #f6901e;
+        opacity: 100%
+    }
+
+    .home-cards {
+        padding-top: 20px;
+    }
+
+    .card-title {
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #393939;
+    }
+
+    .price-1 {
+        color: #393939;
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+    }
+
+    .price-2 {
+        color: #777777;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .card-button {
+        background-color: #26aae1;
+        color: white;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        border-radius: 25px;
+        padding: 5px 20px;
+    }
+
+    #home-section4 {
+        padding: 50px 0px;
+        background-color: #f3f7fb;
+    }
+
+    .section4-image {
+        width: 100%;
+        margin-left: -16px;
+    }
+
+    .home-section4-heading {
+        font-size: 52px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+
+    .home-section4-text {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .home-section4-btn {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .website-footer-heading {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #383838;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding-bottom: 7px;
+    }
+
+    .footer-links a {
+        color: #383838;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    #navbar-1-of-website {
+        background-color: white;
+        padding: 10px 0px;
+    }
+
+    #website-logo img {
+        width: 200px;
+    }
+
+    .website-logo-2 img {
+        width: 200px;
+    }
+
+    .nav-item-header a {
+        color: #393939;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .signup-btn-1 {
+        background-color: #26aae1;
+        color: white;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        margin-right: unset;
+        border-radius: 7px;
+        z-index: unset;
+    }
+
+    .signup-btn-2 {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 7px;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+    }
+
+    #home-banner {
+        background: url('/Website\ Images/Home Banner Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 69px;
+        padding: 50px 0px;
+    }
+
+    .home-banner-title {
+        color: white;
+        text-align: center;
+    }
+
+    .home-banner-title-heading1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 1em;
+    }
+
+    .home-banner-title-heading2 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 0.7em;
+    }
+
+    .home-banner-title-heading3 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 52px;
+        line-height: 1em;
+    }
+
+    .home-banner-hr {
+        width: 40%;
+        border: 2px solid #2baadc;
+        opacity: 100%;
+        margin: 25px auto;
+    }
+
+    .home-banner-title-heading4 {
+        font-family: graphikbold;
+        font-size: 15px;
+    }
+
+    .home-banner-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 18px;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+    .home-banner-image {
+        width: 70%;
+        margin-top: 20px;
+    }
+
+    #home-section1 {
+        padding: 50px 0px;
+    }
+
+    .home-section1-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .home-section1-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 18px;
+        width: 70%;
+        text-align: center;
+    }
+
+    .home-section1-btn {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+    }
+
+    .home-section1-icon {
+        font-size: 25px;
+    }
+
+    #home-section2 {
+        padding: 50px 0px;
+    }
+
+    .home-section2-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .home-section2-hr {
+        width: 60%;
+        margin: 10px auto;
+        border: 2px solid #f6901e;
+        opacity: 100%
+    }
+
+    .home-services {
+        padding-top: 20px;
+    }
+
+    .home-section2-services {
+        border: 2px solid #bcbcbc;
+        padding: 20px;
+        border-radius: 7px;
+    }
+
+    .home-section2-service-heading {
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+    }
+
+    .home-section2-service-text {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #home-section3 {
+        padding: 50px 0px;
+    }
+
+    .home-section3-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .home-section3-hr {
+        width: 60%;
+        margin: 10px auto;
+        border: 2px solid #f6901e;
+        opacity: 100%
+    }
+
+    .home-cards {
+        padding-top: 20px;
+    }
+
+    .card-title {
+        font-size: 11px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #393939;
+    }
+
+    .price-1 {
+        color: #393939;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+    }
+
+    .price-2 {
+        color: #777777;
+        font-size: 10px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .card-button {
+        background-color: #26aae1;
+        color: white;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        border-radius: 25px;
+        padding: 5px 20px;
+    }
+
+    #home-section4 {
+        padding: 50px 0px;
+        background-color: #f3f7fb;
+    }
+
+    .section4-image-section {
+        text-align: center;
+    }
+
+    .section4-image {
+        width: 70%;
+        margin-bottom: 25px;
+    }
+
+    .home-section4-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .home-section4-text {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .home-section4-btn {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .website-footer-logo {
+        width: 200px;
+        margin-bottom: 25px;
+    }
+
+    .website-footer-heading {
+        font-size: 20px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #383838;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding-bottom: 7px;
+    }
+
+    .footer-links a {
+        color: #383838;
+        text-decoration: none;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    #navbar-1-of-website {
+        background-color: white;
+        padding: 10px 0px;
+    }
+
+    #website-logo img {
+        width: 180px;
+    }
+
+    .website-logo-2 img {
+        width: 200px;
+    }
+
+    .nav-item-header a {
+        color: #393939;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .signup-btn-1 {
+        background-color: #26aae1;
+        color: white;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        margin-right: unset;
+        border-radius: 7px;
+        z-index: unset;
+    }
+
+    .signup-btn-2 {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 7px;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+    }
+
+    #home-banner {
+        background: url('/Website\ Images/Home Banner Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 68px;
+        padding: 50px 0px;
+    }
+
+    .home-banner-title {
+        color: white;
+        text-align: center;
+    }
+
+    .home-banner-title-heading1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 1em;
+    }
+
+    .home-banner-title-heading2 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 0.8em;
+    }
+
+    .home-banner-title-heading3 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 52px;
+        line-height: 1em;
+    }
+
+    .home-banner-hr {
+        width: 45%;
+        border: 2px solid #2baadc;
+        opacity: 100%;
+        margin: 20px auto;
+    }
+
+    .home-banner-title-heading4 {
+        font-family: graphikbold;
+        font-size: 15px;
+    }
+
+    .home-banner-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 18px;
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .home-banner-image {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    #home-section1 {
+        padding: 50px 0px;
+    }
+
+    .home-section1-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+
+    .home-section1-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 18px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .home-section1-btn {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+    }
+
+    .home-section1-icon {
+        font-size: 22px;
+    }
+
+    #home-section2 {
+        padding: 50px 0px;
+    }
+
+    .home-section2-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .home-section2-hr {
+        width: 80%;
+        margin: 10px auto;
+        border: 2px solid #f6901e;
+        opacity: 100%
+    }
+
+    .home-services {
+        padding-top: 20px;
+    }
+
+    .home-section2-services {
+        border: 2px solid #bcbcbc;
+        padding: 20px;
+        border-radius: 7px;
+    }
+
+    .home-section2-service-heading {
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+    }
+
+    .home-section2-service-text {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #home-section3 {
+        padding: 50px 0px;
+    }
+
+    .home-section3-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .home-section3-hr {
+        width: 80%;
+        margin: 10px auto;
+        border: 2px solid #f6901e;
+        opacity: 100%
+    }
+
+    .home-cards {
+        padding-top: 20px;
+    }
+
+    .card-title {
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #393939;
+    }
+
+    .price-1 {
+        color: #393939;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+    }
+
+    .price-2 {
+        color: #777777;
+        font-size: 10px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .card-button {
+        background-color: #26aae1;
+        color: white;
+        font-size: 10px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        border-radius: 25px;
+        padding: 5px 20px;
+    }
+
+    #home-section4 {
+        padding: 50px 0px;
+        background-color: #f3f7fb;
+    }
+
+    .section4-image-section {
+        text-align: center;
+    }
+
+    .section4-image {
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .home-section4-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        margin-bottom: 12.5px;
+    }
+
+    .home-section4-text {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .home-section4-btn {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 50px;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .website-footer-logo {
+        width: 180px;
+        margin-bottom: 25px;
+    }
+
+    .website-footer-heading {
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #383838;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding-bottom: 7px;
+    }
+
+    .footer-links a {
+        color: #383838;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* !!! Modal Of Signup */
+    .modal-backdrop.show {
+        opacity: var(--bs-backdrop-opacity);
+        z-index: 1000;
+    }
+
+    .modal-title1 {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        color: black;
+    }
+
+    .modal-images {
+        margin: 20px 0px;
+    }
+
+    .modal-images img {
+        width: 30px;
+        margin: 0px 7px;
+    }
+
+    .modal-title2 {
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        color: black;
+    }
+
+    input {
+        background-color: #efefef;
+        border: none;
+        outline: none;
+        border-radius: 0;
+        padding: 10px 20px;
+        color: #6c6c6c;
+        font-size: 10px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 300;
+    }
+
+    .input-span {
+        color: #7e7e7e;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 300;
+        padding-left: 20px;
+    }
+
+    .modal-footer {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .create-account-btn {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 0px;
+        border: none;
+        padding: 7px 30px;
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .button-span {
+        color: #7e7e7e;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 300;
+        margin-right: 10px;
+    }
+
+    .modal-footer-link {
+        color: #f6901e;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    /* !!! Modal Of Signup */
+    /* !!! Modal Of Contact Us */
+    .modal-footer-contactus {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    /* !!! Modal Of Contact Us */
+    #navbar-1-of-website {
+        background-color: white;
+        padding: 10px 0px;
+    }
+
+    #website-logo img {
+        width: 180px;
+    }
+
+    .website-logo-2 img {
+        width: 180px;
+    }
+
+    .nav-item-header a {
+        color: #393939;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .signup-btn-1 {
+        background-color: #26aae1;
+        color: white;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+        margin-right: unset;
+        border-radius: 7px;
+        z-index: unset;
+    }
+
+    .signup-btn-2 {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 7px;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 500;
+    }
+
+    #home-banner {
+        background: url('/Website\ Images/Home Banner Background.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 68px;
+        padding: 30px 0px;
+    }
+
+    .home-banner-title {
+        color: white;
+        text-align: center;
+    }
+
+    .home-banner-title-heading1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 1em;
+    }
+
+    .home-banner-title-heading2 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 0.8em;
+    }
+
+    .home-banner-title-heading3 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 1em;
+    }
+
+    .home-banner-hr {
+        width: 70%;
+        border: 2px solid #2baadc;
+        opacity: 100%;
+        margin: 20px auto;
+    }
+
+    .home-banner-title-heading4 {
+        font-family: graphikbold;
+        font-size: 15px;
+    }
+
+    .home-banner-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 15px;
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .home-banner-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #home-section1 {
+        padding: 30px 0px;
+    }
+
+    .home-section1-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .home-section1-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .home-section1-btn {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 50px;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        padding: 7px 30px;
+        text-decoration: line-through;
+    }
+
+    .home-section1-icon {
+        font-size: 18px;
+    }
+
+    #home-section2 {
+        padding: 30px 0px;
+    }
+
+    .home-section2-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .home-section2-hr {
+        width: 100%;
+        border: 2px solid #f6901e;
+        opacity: 100%
+    }
+
+    .home-services {
+        padding-top: 20px;
+    }
+
+    .home-section2-services {
+        border: 2px solid #bcbcbc;
+        padding: 20px;
+        border-radius: 7px;
+    }
+
+    .home-section2-service-heading {
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+    }
+
+    .home-section2-service-text {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    #home-section3 {
+        padding: 30px 0px;
+    }
+
+    .home-section3-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .home-section3-hr {
+        width: 100%;
+        border: 2px solid #f6901e;
+        opacity: 100%
+    }
+
+    .home-cards {
+        padding-top: 20px;
+    }
+
+    .card-title {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #393939;
+    }
+
+    .price-1 {
+        color: #393939;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+    }
+
+    .price-2 {
+        color: #777777;
+        font-size: 10px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .card-button {
+        background-color: #26aae1;
+        color: white;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        border-radius: 25px;
+        padding: 5px 20px;
+    }
+
+    #home-section4 {
+        padding: 30px 0px;
+        background-color: #f3f7fb;
+    }
+
+    .section4-image-section {
+        text-align: center;
+    }
+
+    .section4-image {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .home-section4-heading {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        margin-bottom: 7.5px;
+        text-align: center;
+    }
+
+    .home-section4-text {
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .home-section4-btn {
+        background-color: #f6901e;
+        color: white;
+        border-radius: 50px;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    #website-footer {
+        background-color: #d7d7d7;
+        padding: 30px 0px;
+    }
+
+    .footer-column {
+        margin-bottom: 30px;
+    }
+
+    .website-footer-logo {
+        width: 180px;
+        margin-bottom: 15px;
+    }
+
+    .website-footer-heading {
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #383838;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding-bottom: 7px;
+    }
+
+    .footer-links a {
+        color: #383838;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+    }
+}
