@@ -175,7 +175,7 @@ textarea {
     border-bottom: 2px solid #f6901e;
 }
 
-.nav-item-header a:is(:link, :active, :visited).active {
+.nav-item-header a.active {
     color: #31afe2;
     border-bottom: 2px solid #f6901e;
 }
@@ -247,7 +247,7 @@ textarea {
 }
 
 .home-banner-title-heading4 {
-    font-family: graphikbold;
+    font-family: graphikregular - sans-serif;
     font-size: 18px;
 }
 
@@ -565,7 +565,7 @@ textarea {
     }
 
     .home-banner-title-heading4 {
-        font-family: graphikbold;
+        font-family: graphikregular - sans-serif;
         font-size: 18px;
     }
 
@@ -842,7 +842,7 @@ textarea {
     }
 
     .home-banner-title-heading4 {
-        font-family: graphikbold;
+        font-family: graphikregular - sans-serif;
         font-size: 15px;
     }
 
@@ -1131,7 +1131,7 @@ textarea {
     }
 
     .home-banner-title-heading4 {
-        font-family: graphikbold;
+        font-family: graphikregular - sans-serif;
         font-size: 15px;
     }
 
@@ -1510,7 +1510,7 @@ textarea {
     }
 
     .home-banner-title-heading4 {
-        font-family: graphikbold;
+        font-family: graphikregular - sans-serif;
         font-size: 15px;
     }
 
