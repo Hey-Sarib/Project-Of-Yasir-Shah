@@ -45,20 +45,20 @@
         <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
           <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
             <li class="nav-item nav-item-header">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html" onclick="activateLink(this)">Home</a>
             </li>
             <li class="nav-item nav-item-header">
-              <a class="nav-link mx-2" href="#">Mock Interview</a>
+              <a class="nav-link mx-2" href="#home-section4" onclick="activateLink(this)">Mock Interview</a>
             </li>
             <li class="nav-item nav-item-header">
-              <a class="nav-link mx-2" href="#home-section3">Books</a>
+              <a class="nav-link mx-2" href="#home-section3" onclick="activateLink(this)">Books</a>
             </li>
             <li class="nav-item nav-item-header">
-              <a class="nav-link mx-2" href="#">About Us</a>
+              <a class="nav-link mx-2" href="#home-section1" onclick="activateLink(this)">About Us</a>
             </li>
             <li class="nav-item nav-item-header">
               <a style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#example3Modal"
-                class="nav-link mx-2">Contact Us</a>
+                class="nav-link mx-2" onclick="activateLink(this)">Contact Us</a>
             </li>
           </ul>
           <!-- Button Signup Start -->
@@ -446,6 +446,8 @@
     </div>
   </div>
   <!-- Contact Us Popup Form End -->
+  <!-- Javascript File -->
+  <script src="script.js"></script>
   <!-- Bootstrap Javascript File -->
   <script src="bootstrap.min.js"></script>
 </body>
