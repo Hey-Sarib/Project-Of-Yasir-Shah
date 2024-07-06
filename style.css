@@ -496,6 +496,113 @@ textarea {
 }
 
 /* Website Footer End */
+/* Pricing Page Styling Start */
+#pricing-container {
+    margin-top: 72px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.pricing-page-heading {
+    font-size: 38px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+.pricing-hr {
+    border: 2px solid #f6901e;
+    width: 40%;
+    opacity: 100%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.pricing-table-1 {
+    background-color: #eeeeee;
+    border-top: 5px solid #1ca700;
+    padding: 30px 15px;
+    margin: 0px 30px;
+    height: 100%;
+}
+
+.pricing-table-2 {
+    background-color: #eeeeee;
+    border-top: 5px solid #e3080d;
+    padding: 30px 15px;
+    margin: 0px 30px;
+    transform: scale(1.1);
+    height: 100%;
+}
+
+.pricing-table-3 {
+    background-color: #eeeeee;
+    border-top: 5px solid #ffcc00;
+    padding: 30px 15px;
+    margin: 0px 30px;
+    height: 100%;
+}
+
+.pricing-h1 {
+    font-size: 22px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing-h2 {
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.pricing-h3 {
+    font-size: 50px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.pricing-span {
+    font-size: 15px;
+}
+
+.pricing-h4 {
+    font-size: 22px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pricing-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-btn {
+    color: white;
+    background-color: #26aae1;
+    border: none;
+    width: 90%;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    padding: 7px 0px;
+}
+
+.tick-image {
+    width: 15px;
+}
+
+.pricing-points {
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+/* Pricing Page Styling End */
 @media (min-width: 992px) and (max-width: 1230px) {
     .nav-item-header a {
         color: #393939;
@@ -757,6 +864,112 @@ textarea {
         font-weight: 400;
     }
 }
+
+/* Pricing Page Styling Start */
+#pricing-container {
+    margin-top: 73px;
+}
+
+.pricing-page-heading {
+    font-size: 32px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+}
+
+.pricing-hr {
+    border: 2px solid #f6901e;
+    width: 45%;
+    opacity: 100%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+
+.pricing-table-1 {
+    background-color: #eeeeee;
+    border-top: 5px solid #1ca700;
+    padding: 30px 15px;
+    margin: 0px 25px;
+    height: 100%;
+}
+
+.pricing-table-2 {
+    background-color: #eeeeee;
+    border-top: 5px solid #e3080d;
+    padding: 30px 15px;
+    margin: 0px 25px;
+    transform: scale(1.1);
+    height: 100%;
+}
+
+.pricing-table-3 {
+    background-color: #eeeeee;
+    border-top: 5px solid #ffcc00;
+    padding: 30px 15px;
+    margin: 0px 25px;
+    height: 100%;
+}
+
+.pricing-h1 {
+    font-size: 22px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.pricing-h2 {
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.pricing-h3 {
+    font-size: 50px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.pricing-span {
+    font-size: 15px;
+}
+
+.pricing-h4 {
+    font-size: 22px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+
+.pricing-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-btn {
+    color: white;
+    background-color: #26aae1;
+    border: none;
+    width: 90%;
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    padding: 7px 0px;
+}
+
+.tick-image {
+    width: 15px;
+}
+
+.pricing-points {
+    font-size: 15px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+/* Pricing Page Styling End */
 
 @media (min-width: 768px) and (max-width: 992px) {
     #navbar-1-of-website {
@@ -1045,6 +1258,113 @@ textarea {
         font-family: "Manrope", sans-serif;
         font-weight: 400;
     }
+
+    /* Pricing Page Styling Start */
+    #pricing-container {
+        margin-top: 69px;
+    }
+
+    .pricing-page-heading {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .pricing-hr {
+        border: 2px solid #f6901e;
+        width: 50%;
+        opacity: 100%;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
+
+    .pricing-table-1 {
+        background-color: #eeeeee;
+        border-top: 5px solid #1ca700;
+        padding: 30px 15px;
+        margin: 0px 0px;
+        height: 100%;
+    }
+
+    .pricing-table-2 {
+        background-color: #eeeeee;
+        border-top: 5px solid #e3080d;
+        padding: 30px 15px;
+        margin: 0px 0px;
+        transform: scale(1.1);
+        height: 100%;
+    }
+
+    .pricing-table-3 {
+        background-color: #eeeeee;
+        border-top: 5px solid #ffcc00;
+        padding: 30px 15px;
+        margin: 0px 0px;
+        height: 100%;
+    }
+
+    .pricing-h1 {
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .pricing-h2 {
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: line-through;
+    }
+
+    .pricing-h3 {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .pricing-span {
+        font-size: 15px;
+    }
+
+    .pricing-h4 {
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .pricing-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricing-btn {
+        color: white;
+        background-color: #26aae1;
+        border: none;
+        width: 90%;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        padding: 5px 0px;
+    }
+
+    .tick-image {
+        width: 12px;
+    }
+
+    .pricing-points {
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+    }
+
+    /* Pricing Page Styling End */
+    
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
@@ -1334,6 +1654,114 @@ textarea {
         font-family: "Manrope", sans-serif;
         font-weight: 400;
     }
+
+    /* Pricing Page Styling Start */
+    #pricing-container {
+        margin-top: 68px;
+        padding-bottom: 50px;
+    }
+
+    .pricing-page-heading {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .pricing-hr {
+        border: 2px solid #f6901e;
+        width: 80%;
+        opacity: 100%;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .pricing-table-1 {
+        background-color: #eeeeee;
+        border-top: 5px solid #1ca700;
+        padding: 30px 15px;
+        margin: 0px 25px;
+        height: 100%;
+    }
+
+    .pricing-table-2 {
+        background-color: #eeeeee;
+        border-top: 5px solid #e3080d;
+        padding: 30px 15px;
+        margin: 0px 25px;
+        transform: none;
+        height: 100%;
+    }
+
+    .pricing-table-3 {
+        background-color: #eeeeee;
+        border-top: 5px solid #ffcc00;
+        padding: 30px 15px;
+        margin: 0px 25px;
+        height: 100%;
+    }
+
+    .pricing-h1 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .pricing-h2 {
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: line-through;
+    }
+
+    .pricing-h3 {
+        font-size: 50px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .pricing-span {
+        font-size: 15px;
+    }
+
+    .pricing-h4 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .pricing-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricing-btn {
+        color: white;
+        background-color: #26aae1;
+        border: none;
+        width: 90%;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        padding: 7px 0px;
+    }
+
+    .tick-image {
+        width: 15px;
+    }
+
+    .pricing-points {
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+    }
+
+    /* Pricing Page Styling End */
+    
 }
 
 @media (max-width: 600px) {
@@ -1724,4 +2152,112 @@ textarea {
         font-family: "Manrope", sans-serif;
         font-weight: 400;
     }
+
+    /* Pricing Page Styling Start */
+    #pricing-container {
+        margin-top: 68px;
+        padding-bottom: 50px;
+    }
+
+    .pricing-page-heading {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
+
+    .pricing-hr {
+        border: 2px solid #f6901e;
+        width: 80%;
+        opacity: 100%;
+        margin-top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .pricing-table-1 {
+        background-color: #eeeeee;
+        border-top: 5px solid #1ca700;
+        padding: 30px 15px;
+        margin: 0px 15px;
+        height: 100%;
+    }
+
+    .pricing-table-2 {
+        background-color: #eeeeee;
+        border-top: 5px solid #e3080d;
+        padding: 30px 15px;
+        margin: 0px 15px;
+        transform: none;
+        height: 100%;
+    }
+
+    .pricing-table-3 {
+        background-color: #eeeeee;
+        border-top: 5px solid #ffcc00;
+        padding: 30px 15px;
+        margin: 0px 15px;
+        height: 100%;
+    }
+
+    .pricing-h1 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .pricing-h2 {
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: line-through;
+    }
+
+    .pricing-h3 {
+        font-size: 42px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .pricing-span {
+        font-size: 15px;
+    }
+
+    .pricing-h4 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .pricing-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pricing-btn {
+        color: white;
+        background-color: #26aae1;
+        border: none;
+        width: 90%;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        padding: 5px 0px;
+    }
+
+    .tick-image {
+        width: 15px;
+    }
+
+    .pricing-points {
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+    }
+
+    /* Pricing Page Styling End */
+    
 }
