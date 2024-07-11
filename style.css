@@ -15,14 +15,12 @@
     src: url(/Fonts/GraphikRegular.otf);
 }
 
+html,
 body {
     background-color: white;
     overflow-x: hidden;
-}
-
-/* html {
     scroll-behavior: smooth;
-} */
+}
 
 /* !!! Modal Of Signup */
 .modal-backdrop.show {
@@ -252,7 +250,8 @@ textarea {
 }
 
 .home-banner-text {
-    font-family: graphikregular - sans-serif;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
     font-size: 18px;
 }
 
@@ -603,6 +602,175 @@ textarea {
 }
 
 /* Pricing Page Styling End */
+
+/* book landing page styling Start */
+.booklanding-h1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #393939;
+}
+
+.booklanding-text1 {
+    font-family: graphikregular - sans-serif;
+    font-size: 18px;
+}
+
+.booklanding-span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.book-landing-box {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 27px 27px 27px 27px;
+    margin-top: -80%;
+}
+
+.booklanding-image {
+    width: 100%;
+}
+
+.booklanding-box {
+    border: 2px solid #262626;
+    margin: 15px 15px;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.booklanding-box-h4 {
+    font-size: 25px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    color: #272727;
+}
+
+.booklanding-box-h5 {
+    font-size: 32px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: #272727;
+}
+
+.booklanding-span2 {
+    font-size: 15px;
+}
+
+.book-landing-box-button {
+    width: 90%;
+}
+
+.booklanding-box-btn {
+    background-color: #26aae1;
+    color: white;
+    font-size: 28px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    border-radius: 0px;
+    padding: 5px 0px;
+    width: 100%;
+    border: 0px;
+}
+
+.booklanding-box-h6 {
+    font-size: 28px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: #272727;
+    text-align: center;
+}
+
+/* book landing page styling End */
+/* book menu page styling Start */
+#headerforbookmenupage {
+    padding: 10px 0px;
+    background-color: white;
+}
+
+.website-header-logo {
+    width: 230px;
+}
+
+.header-h2 {
+    font-size: 32px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: #3d3d3d;
+}
+
+#bookmenubox1 {
+    height: 1000px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    top: 10.3%;
+    left: 0px;
+    z-index: 1;
+}
+
+#bookmenubox2 {
+    background-color: white;
+    border-radius: 25px;
+}
+
+.bookmenubox2-h2 {
+    font-size: 32px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: #393939;
+}
+
+.bookmenubox2-text {
+    font-family: graphikregular - sans-serif;
+    font-size: 18px;
+}
+
+.bookmenubox2-span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bookmenubox2-btn {
+    background-color: #26aae1;
+    color: white;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    width: 100%;
+    border: 0px;
+    text-align: right;
+}
+
+.progress-text {
+    color: #9f9f9f;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+}
+
+.accordion-button {
+    color: #393939;
+    font-size: 18px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+}
+
+.bookmenusidebarpythonspan {
+    color: #393939;
+    font-size: 12px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    display: block;
+}
+
+/* book menu page styling End */
 @media (min-width: 992px) and (max-width: 1230px) {
     .nav-item-header a {
         color: #393939;
@@ -677,7 +845,8 @@ textarea {
     }
 
     .home-banner-text {
-        font-family: graphikregular - sans-serif;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
         font-size: 18px;
     }
 
@@ -863,119 +1032,262 @@ textarea {
         font-family: "Manrope", sans-serif;
         font-weight: 400;
     }
-}
 
-/* Pricing Page Styling Start */
-#pricing-container {
-    margin-top: 73px;
-}
+    /* Pricing Page Styling Start */
+    #pricing-container {
+        margin-top: 73px;
+    }
 
-.pricing-page-heading {
-    font-size: 32px;
-    font-family: "Manrope", sans-serif;
-    font-weight: 600;
-}
+    .pricing-page-heading {
+        font-size: 32px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+    }
 
-.pricing-hr {
-    border: 2px solid #f6901e;
-    width: 45%;
-    opacity: 100%;
-    margin-top: 0px;
-    margin-bottom: 100px;
-}
+    .pricing-hr {
+        border: 2px solid #f6901e;
+        width: 45%;
+        opacity: 100%;
+        margin-top: 0px;
+        margin-bottom: 100px;
+    }
 
-.pricing-table-1 {
-    background-color: #eeeeee;
-    border-top: 5px solid #1ca700;
-    padding: 30px 15px;
-    margin: 0px 25px;
-    height: 100%;
-}
+    .pricing-table-1 {
+        background-color: #eeeeee;
+        border-top: 5px solid #1ca700;
+        padding: 30px 15px;
+        margin: 0px 25px;
+        height: 100%;
+    }
 
-.pricing-table-2 {
-    background-color: #eeeeee;
-    border-top: 5px solid #e3080d;
-    padding: 30px 15px;
-    margin: 0px 25px;
-    transform: scale(1.1);
-    height: 100%;
-}
+    .pricing-table-2 {
+        background-color: #eeeeee;
+        border-top: 5px solid #e3080d;
+        padding: 30px 15px;
+        margin: 0px 25px;
+        transform: scale(1.1);
+        height: 100%;
+    }
 
-.pricing-table-3 {
-    background-color: #eeeeee;
-    border-top: 5px solid #ffcc00;
-    padding: 30px 15px;
-    margin: 0px 25px;
-    height: 100%;
-}
+    .pricing-table-3 {
+        background-color: #eeeeee;
+        border-top: 5px solid #ffcc00;
+        padding: 30px 15px;
+        margin: 0px 25px;
+        height: 100%;
+    }
 
-.pricing-h1 {
-    font-size: 22px;
-    font-family: "Manrope", sans-serif;
-    font-weight: 600;
-    text-align: center;
-}
+    .pricing-h1 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 600;
+        text-align: center;
+    }
 
-.pricing-h2 {
-    font-size: 15px;
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    text-align: center;
-    text-decoration: line-through;
-}
+    .pricing-h2 {
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: line-through;
+    }
 
-.pricing-h3 {
-    font-size: 50px;
-    font-family: "Manrope", sans-serif;
-    font-weight: 800;
-    text-align: center;
-}
+    .pricing-h3 {
+        font-size: 50px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        text-align: center;
+    }
 
-.pricing-span {
-    font-size: 15px;
-}
+    .pricing-span {
+        font-size: 15px;
+    }
 
-.pricing-h4 {
-    font-size: 22px;
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-    text-align: center;
-}
+    .pricing-h4 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        text-align: center;
+    }
 
-.pricing-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .pricing-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.pricing-btn {
-    color: white;
-    background-color: #26aae1;
-    border: none;
-    width: 90%;
-    font-size: 15px;
-    font-family: "Manrope", sans-serif;
-    font-weight: 800;
-    padding: 7px 0px;
-}
+    .pricing-btn {
+        color: white;
+        background-color: #26aae1;
+        border: none;
+        width: 90%;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        padding: 7px 0px;
+    }
 
-.tick-image {
-    width: 15px;
-}
+    .tick-image {
+        width: 15px;
+    }
 
-.pricing-points {
-    font-size: 15px;
-    font-family: "Manrope", sans-serif;
-    font-weight: 400;
-}
+    .pricing-points {
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+    }
 
-/* Pricing Page Styling End */
+    /* Pricing Page Styling End */
+    /* book landing page styling Start */
+    .booklanding-h1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        color: #393939;
+    }
+
+    .booklanding-text1 {
+        font-family: graphikregular - sans-serif;
+        font-size: 18px;
+    }
+
+    .booklanding-span {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .book-landing-box {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 27px 27px 27px 27px;
+        margin-top: -125%;
+    }
+
+    .booklanding-image {
+        width: 100%;
+    }
+
+    .booklanding-box {
+        border: 2px solid #262626;
+        margin: 15px 15px;
+        padding: 30px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .booklanding-box-h4 {
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        color: #272727;
+    }
+
+    .booklanding-box-h5 {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #272727;
+    }
+
+    .booklanding-span2 {
+        font-size: 12px;
+    }
+
+    .book-landing-box-button {
+        width: 95%;
+    }
+
+    .booklanding-box-btn {
+        background-color: #26aae1;
+        color: white;
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        border-radius: 0px;
+        padding: 5px 0px;
+        width: 100%;
+        border: 0px;
+    }
+
+    .booklanding-box-h6 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #272727;
+        text-align: center;
+    }
+
+    /* book landing page styling End */
+    /* book menu page styling Start */
+    #headerforbookmenupage {
+        padding: 10px 0px;
+        background-color: white;
+    }
+
+    #website-logo>.website-header-logo {
+        width: 200px;
+    }
+
+    .header-h2 {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #3d3d3d;
+    }
+
+    #bookmenubox1 {
+        height: 1000px;
+        width: 300px;
+        background-color: white;
+        position: absolute;
+        top: 10.3%;
+        left: 0px;
+        z-index: 1;
+    }
+
+    .bookmenubox2-btn {
+        background-color: #26aae1;
+        color: white;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        border-radius: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        width: 100%;
+        border: 0px;
+        text-align: right;
+    }
+
+    .progress-text {
+        color: #9f9f9f;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+    }
+
+    .accordion-button {
+        color: #393939;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+    }
+
+    .bookmenusidebarpythonspan {
+        color: #393939;
+        font-size: 12px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        display: block;
+    }
+
+    /* book menu page styling End */
+}
 
 @media (min-width: 768px) and (max-width: 992px) {
-    #navbar-1-of-website {
-        background-color: white;
-        padding: 10px 0px;
-    }
+
 
     #website-logo img {
         width: 200px;
@@ -1060,7 +1372,8 @@ textarea {
     }
 
     .home-banner-text {
-        font-family: graphikregular - sans-serif;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
         font-size: 18px;
         width: 70%;
         margin: 20px auto;
@@ -1364,14 +1677,138 @@ textarea {
     }
 
     /* Pricing Page Styling End */
-    
+    /* book landing page styling Start */
+    .booklanding-h1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        color: #393939;
+        text-align: center;
+    }
+
+    .booklanding-text1 {
+        font-family: graphikregular - sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .booklanding-span {
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+
+    .book-landing-box {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 30px 30px 30px 30px;
+        margin-top: 0;
+    }
+
+    .booklanding-image {
+        width: 100%;
+    }
+
+    .booklanding-box {
+        border: 2px solid #262626;
+        margin: 15px 15px;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .booklanding-box-h4 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        color: #272727;
+    }
+
+    .booklanding-box-h5 {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #272727;
+    }
+
+    .booklanding-span2 {
+        font-size: 15px;
+    }
+
+    .book-landing-box-button {
+        width: 50%;
+    }
+
+    .booklanding-box-btn {
+        background-color: #26aae1;
+        color: white;
+        font-size: 25px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        border-radius: 0px;
+        padding: 5px 30px;
+        width: 100%;
+        border: 0px;
+    }
+
+    .booklanding-box-h6 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #272727;
+        text-align: center;
+    }
+
+    /* book landing page styling End */
+    /* book menu page styling Start */
+    #headerforbookmenupage {
+        padding: 10px 0px;
+        background-color: white;
+    }
+
+    #website-logo>.website-header-logo {
+        width: 200px;
+    }
+
+    .header-h2 {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #3d3d3d;
+        margin-top: 10px;
+    }
+
+    #bookmenubox1 {
+        display: none;
+    }
+
+    .bookmenubox2-h2 {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #393939;
+    }
+
+    .bookmenubox2-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .bookmenubox2-span {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+
+    /* book menu page styling End */
 }
 
 @media (min-width: 600px) and (max-width: 768px) {
-    #navbar-1-of-website {
-        background-color: white;
-        padding: 10px 0px;
-    }
+
 
     #website-logo img {
         width: 180px;
@@ -1456,7 +1893,8 @@ textarea {
     }
 
     .home-banner-text {
-        font-family: graphikregular - sans-serif;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
         font-size: 18px;
         width: 90%;
         margin: 20px auto;
@@ -1761,7 +2199,134 @@ textarea {
     }
 
     /* Pricing Page Styling End */
-    
+    /* book landing page styling Start */
+    .booklanding-h1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        color: #393939;
+        text-align: center;
+    }
+
+    .booklanding-text1 {
+        font-family: graphikregular - sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .booklanding-span {
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+
+    .book-landing-box {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 30px 30px 30px 30px;
+        margin-top: 0;
+    }
+
+    .booklanding-image {
+        width: 100%;
+    }
+
+    .booklanding-box {
+        border: 2px solid #262626;
+        margin: 15px 15px;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .booklanding-box-h4 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        color: #272727;
+    }
+
+    .booklanding-box-h5 {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #272727;
+    }
+
+    .booklanding-span2 {
+        font-size: 15px;
+    }
+
+    .book-landing-box-button {
+        width: 65%;
+    }
+
+    .booklanding-box-btn {
+        background-color: #26aae1;
+        color: white;
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        border-radius: 0px;
+        padding: 5px 45px;
+        width: 100%;
+        border: 0px;
+    }
+
+    .booklanding-box-h6 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #272727;
+        text-align: center;
+    }
+
+    /* book landing page styling End */
+    /* book menu page styling Start */
+    #headerforbookmenupage {
+        padding: 10px 0px;
+        background-color: white;
+    }
+
+    #website-logo>.website-header-logo {
+        width: 180px;
+    }
+
+    .header-h2 {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #3d3d3d;
+        margin-top: 10px;
+    }
+
+    #bookmenubox1 {
+        display: none;
+    }
+
+    .bookmenubox2-h2 {
+        font-size: 28px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #393939;
+    }
+
+    .bookmenubox2-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .bookmenubox2-span {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+
+    /* book menu page styling End */
 }
 
 @media (max-width: 600px) {
@@ -1855,10 +2420,7 @@ textarea {
     }
 
     /* !!! Modal Of Contact Us */
-    #navbar-1-of-website {
-        background-color: white;
-        padding: 10px 0px;
-    }
+
 
     #website-logo img {
         width: 180px;
@@ -1943,7 +2505,8 @@ textarea {
     }
 
     .home-banner-text {
-        font-family: graphikregular - sans-serif;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
         font-size: 15px;
         width: 100%;
         margin: 20px auto;
@@ -2259,5 +2822,132 @@ textarea {
     }
 
     /* Pricing Page Styling End */
-    
+    /* book landing page styling Start */
+    .booklanding-h1 {
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        font-size: 38px;
+        color: #393939;
+        text-align: center;
+    }
+
+    .booklanding-text1 {
+        font-family: graphikregular - sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .booklanding-span {
+        font-size: 17px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+
+    .book-landing-box {
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        border-radius: 30px 30px 30px 30px;
+        margin-top: 0;
+    }
+
+    .booklanding-image {
+        width: 100%;
+    }
+
+    .booklanding-box {
+        border: 2px solid #262626;
+        margin: 15px 15px;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .booklanding-box-h4 {
+        font-size: 18px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 400;
+        color: #272727;
+    }
+
+    .booklanding-box-h5 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #272727;
+    }
+
+    .booklanding-span2 {
+        font-size: 12px;
+    }
+
+    .book-landing-box-button {
+        width: 80%;
+    }
+
+    .booklanding-box-btn {
+        background-color: #26aae1;
+        color: white;
+        font-size: 15px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        border-radius: 0px;
+        padding: 5px 45px;
+        width: 100%;
+        border: 0px;
+    }
+
+    .booklanding-box-h6 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #272727;
+        text-align: center;
+    }
+
+    /* book landing page styling End */
+    /* book menu page styling Start */
+    #headerforbookmenupage {
+        padding: 10px 0px;
+        background-color: white;
+    }
+
+    #website-logo>.website-header-logo {
+        width: 180px;
+    }
+
+    .header-h2 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #3d3d3d;
+        margin-top: 10px;
+    }
+
+    #bookmenubox1 {
+        display: none;
+    }
+
+    .bookmenubox2-h2 {
+        font-size: 22px;
+        font-family: "Manrope", sans-serif;
+        font-weight: 800;
+        color: #393939;
+    }
+
+    .bookmenubox2-text {
+        font-family: graphikregular - sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .bookmenubox2-span {
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+    }
+
+    /* book menu page styling End */
 }
