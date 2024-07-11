@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>book landing</title>
+    <!-- Css File -->
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- Bootstrap Css File -->
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <!-- Bootstrap CDN Icon Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <nav id="navbar-1-of-website" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- Logo Start -->
+            <a id="website-logo" class="navbar-brand fs-4" href="index.html"><img src="/Website Logo/Logo.png"
+                    alt="Logo"></a>
+            <!-- Logo End -->
+            <!-- Toggle Btn Start -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Toggle Btn End -->
+            <!-- Sidebar Start -->
+            <div style="background-color: white; transition: 0.3s ease" class="offcanvas offcanvas-start" tabindex="-1"
+                id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!-- Sidebar End -->
+                <!-- Sidebar Header Start -->
+                <div class="offcanvas-header">
+                    <a href="index.html" class="website-logo-2 offcanvas-title" id="offcanvasNavbarLabel"><img
+                            src="/Website Logo/Logo.png" alt="Logo"></a>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <!-- Sidebar Header End -->
+                <!-- Sidebar Body Start -->
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link" aria-current="page" href="index.html"
+                                onclick="activateLink(this)">Home</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link mx-2" href="index.html" onclick="activateLink(this)">Mock
+                                Interview</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link mx-2" href="pricing.html" onclick="activateLink(this)">Pricing</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link mx-2" href="index.html" onclick="activateLink(this)">Books</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a class="nav-link mx-2" href="index.html" onclick="activateLink(this)">About Us</a>
+                        </li>
+                        <li class="nav-item nav-item-header">
+                            <a style="cursor: pointer;" data-bs-toggle="modal" data-bs-target="#example3Modal"
+                                class="nav-link mx-2" onclick="activateLink(this)">Contact Us</a>
+                        </li>
+                    </ul>
+                    <!-- Button Signup Start -->
+                    <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+                        <button style="border: none; outline: none;" type="button"
+                            class="signup-btn-1 text-decoration-none px-4 py-2" data-bs-target="#exampleModal"
+                            data-bs-toggle="modal"><i class="bi bi-arrow-right-circle"></i>
+                            Signup</button>
+                        <!-- Modal Of Signup Start -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content" style="border-radius: 0px;">
+                                    <div class="modal-header" style="border: 0;">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h1 class="modal-title1 text-center" id="exampleModalLabel">Sign Up with</h1>
+                                        <div class="modal-images d-flex justify-content-center">
+                                            <a href="#"><img src="/Website Images/Fb Icon.png" alt="image"></a>
+                                            <a href="#"><img src="/Website Images/Google Icon.png" alt="image"></a>
+                                            <a href="#"><img src="/Website Images/Linkdin Icon.png" alt="image"></a>
+                                            <a href="#"><img src="/Website Images/Github Icon.png" alt="image"></a>
+                                        </div>
+                                        <h2 class="modal-title2 text-center">OR</h2>
+                                        <div class="inputboxesofsignup d-flex flex-column">
+                                            <input type="email" name="email" id="email" placeholder="Email*">
+                                            <span class="input-span">Please enter your email</span>
+                                            <br>
+                                            <input type="password" name="password" id="password"
+                                                placeholder="Password*">
+                                            <span class="input-span">Please enter your password</span>
+                                            <br>
+                                            <input type="password" name="password" id="password"
+                                                placeholder="Password*">
+                                            <span class="input-span">Please enter your password again</span>
+                                        </div>
+                                    </div>
+                                    <div style="border: 0px;"
+                                        class="modal-footer d-flex flex-column justify-content-center align-items-center">
+                                        <button type="button" onclick="window.location.href='index.html'"
+                                            class="create-account-btn">Create
+                                            Account</button>
+                                        <div class="model-buttons d-flex justify-content-center">
+                                            <span class="button-span">Already have an account?</span>
+                                            <a class="modal-footer-link" href="index.html">Login</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal Of Signup End -->
+                        <button style="border: none; outline: none;" type="button"
+                            class="signup-btn-2 text-decoration-none px-4 py-2" data-bs-target="#example2Modal"
+                            data-bs-toggle="modal"><i class="bi bi-person-circle"></i>
+                            Signin</button>
+                        <!-- Modal Of Signin Start -->
+                        <div class="modal fade" id="example2Modal" tabindex="-1" aria-labelledby="example2ModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content" style="border-radius: 0px;">
+                                    <div class="modal-header" style="border: 0;">
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h1 class="modal-title1 text-center" id="example2ModalLabel">Sign In with</h1>
+                                        <div class="modal-images d-flex justify-content-center">
+                                            <a href="#"><img src="/Website Images/Fb Icon.png" alt="image"></a>
+                                            <a href="#"><img src="/Website Images/Google Icon.png" alt="image"></a>
+                                            <a href="#"><img src="/Website Images/Linkdin Icon.png" alt="image"></a>
+                                            <a href="#"><img src="/Website Images/Github Icon.png" alt="image"></a>
+                                        </div>
+                                        <h2 class="modal-title2 text-center">OR</h2>
+                                        <div class="inputboxesofsignin d-flex flex-column">
+                                            <input type="email" name="email" id="email" placeholder="Email*">
+                                            <span class="input-span">Please enter your email</span>
+                                            <br>
+                                            <input type="password" name="password" id="password"
+                                                placeholder="Password*">
+                                            <span class="input-span">Please enter your password</span>
+                                            <a class="Signin-popup-forgot-btn" href="index.html">Forgot Password?</a>
+                                        </div>
+                                    </div>
+                                    <div style="border: 0px;"
+                                        class="modal-footer d-flex flex-column justify-content-center align-items-center">
+                                        <button type="button" onclick="window.location.href='index.html'"
+                                            class="create-account-btn">Sign
+                                            In</button>
+                                        <div class="model-buttons d-flex justify-content-center">
+                                            <span class="button-span">Don’t have an account?</span>
+                                            <a class="modal-footer-link" href="index.html">Sign Up</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal Of Signin End -->
+                    </div>
+                    <!-- Button Signup End -->
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Sidebar Body Start -->
+    <!-- Navbar End -->
+    <!-- Banner Start -->
+    <div id="home-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <div class="home-banner-title">
+                        <h1 class="home-banner-title-heading3">Python Interview Success Guide</h1>
+                        <p class="home-banner-text">Coding Interview Essentials: The Ultimate Guide to<br>
+                            python Coding Questions.</p>
+                        <hr class="home-banner-hr">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Banner End -->
+    <!-- section 1 Start -->
+    <div class="container py-5" id="book-landing-container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1 class="booklanding-h1 mb-4">Book Overview</h1>
+                <p class="booklanding-text1 mb-3">Your dream job is just a book away with the advance and all in one"The
+                    Python Interview Success Guide." that helps you in kick start your career in just a few weeks. Lets
+                    get enter into the world of Python, where innovation knows no bounds and opportunities are
+                    limitless. In today's tech-driven landscape, Python stands as a cornerstone, powering everything
+                    from web development to data analysis and artificial intelligence. As Python continues to evolve and
+                    expand itsscope, staying ahead of the curve becomes imperative. This comprehensive book is
+                    meticulously crafted to equip professionals like you, who already boast a foundation in Python
+                    programming, with the tools and knowledge needed to ace any Python interview.</p>
+                <p class="mb-3 booklanding-text1">Start your preparation today through three distinct sections tailored
+                    to cater to your proficiency
+                    level.</p>
+                <span class="booklanding-span" style="font-family: graphikbold - sans-serif; color: #f7901e;">The
+                    Beginner
+                    Level Questions Section</span>
+                <p class="booklanding-text1 mb-3">lays the groundwork, reinforcing fundamental concepts and addressing
+                    common interview queries with
+                    ease. Whether you're brushing up on syntax or refreshing your memory on basic data structures, this
+                    section ensures you're primed for success.</p>
+                <span class="booklanding-span" style="font-family: graphikbold - sans-serif; color: #f7901e;">Medium
+                    level
+                    Questions Section</span>
+                <p class="mb-3 booklanding-text1">Transition seamlessly into the Medium Questions section, where
+                    essential concepts take center stage.
+                    Tackle intermediate-level challenges head-on as you delve deeper into Python's intricacies. From
+                    object-oriented programming to algorithmic problem-solving, this section bridges the gap between
+                    theory and best practices, refining your skills for the demands of real-world scenarios.</p>
+                <span class="booklanding-span" style="font-family: graphikbold - sans-serif; color: #f7901e;">Advance
+                    level
+                    Questions Section</span>
+                <p class="booklanding-text1 mb-3">That presents you with advanced concepts and thought-provoking puzzles
+                    designed to elevate your
+                    performance to the next level. Impress interviewers with your proficiency in complex topics. Each
+                    question is meticulously curated to challenge even the most seasoned Pythonistas, ensuring you're
+                    primed to shine in any interview setting.</p>
+
+                <p class="booklanding-text1 mb-3">It's important to note that "The Python Interview Success Guide" is
+                    tailored specifically for
+                <p class="booklanding-text1 mb-3">It's important to note that "The Python Interview Success Guide" is
+                    tailored specifically for
+                    interview preparation. While it oers invaluable insights and practical solutions, it's not intended
+                    to serve as an exhaustive Python resource. Instead, it's a strategic tool crafted to fast-track your
+                    success and secure that coveted Python position. So, are you ready to seize the spotlight and opt
+                    this excellent book for Python interview excellence? The stage is set, and your success awaits.</p>
+                <div class="row pt-5">
+                    <div class="col-12">
+                        <h2 class="home-section3-heading">Related Books</h2>
+                    </div>
+                    <div class="col-sm-4 px-sm-4 home-cards">
+                        <div style="border: none;" class="card">
+                            <img src="/Website Images/Section3 Card Image 1.png" class="card-img-top" alt="Image">
+                            <div class="card-body px-0 py-3">
+                                <h4 class="card-title">Python Interview Success Guide</h4>
+                                <div class="card-prices d-flex align-items-center py-1">
+                                    <h5 class="price-1">$50.00</h5>
+                                    <h5 class="price-2 px-2 text-decoration-line-through">$70.00</h5>
+                                </div>
+                                <div class="card-stars d-flex">
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                </div>
+                                <div class="card-btn py-4">
+                                    <a href="booklanding.html" class="card-button text-decoration-none">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 px-sm-4 home-cards">
+                        <div style="border: none;" class="card">
+                            <img src="/Website Images/Section3 Card Image 2.png" class="card-img-top" alt="Image">
+                            <div class="card-body px-0 py-3">
+                                <h4 class="card-title">React Interview Excellence Guide</h4>
+
+                                <div class="card-stars d-flex">
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                </div>
+                                <div class="card-btn py-4">
+                                    <a href="#" class="card-button text-decoration-none">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 px-sm-4 home-cards">
+                        <div style="border: none;" class="card">
+                            <img src="/Website Images/Section3 Card Image 3.png" class="card-img-top" alt="Image">
+                            <div class="card-body px-0 py-3">
+                                <h4 class="card-title">Python Interview Success Guide</h4>
+                                <div class="card-prices d-flex align-items-center py-1">
+                                    <h5 class="price-1">$50.00</h5>
+                                    <h5 class="price-2 px-2 text-decoration-line-through">$70.00</h5>
+                                </div>
+                                <div class="card-stars d-flex">
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                    <i style="color: #ffc107; padding-right: 5px;" class="bi bi-star-fill"></i>
+                                </div>
+                                <div class="card-btn py-4">
+                                    <a href="booklanding.html" class="card-button text-decoration-none">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 pt-5 pt-lg-0">
+                <div class="book-landing-box pb-5">
+                    <div class="card border-0" style="border-radius: 30px 30px 0px 0px;">
+                        <div class="card-img">
+                            <img src="/Website Images/Book Landing Image.png" style="border-radius:30px 30px 0px 0px ;"
+                                alt="image" class="card-img-top booklanding-image">
+                        </div>
+                        <div class="card-body booklanding-box">
+                            <h4 class="card-title booklanding-box-h4 text-center">Get instant access to click</h4>
+                            <h5 class="booklanding-box-h5 my-4">$7<span class="booklanding-span2">/mo</span></h5>
+                            <div class="book-landing-box-button d-flex justify-content-center align-items-center">
+                                <button onclick="window.location.href='bookmenu.html'" type="button"
+                                    class="booklanding-box-btn">All Books Access</button>
+                            </div>
+                        </div>
+                        <h6 class="booklanding-box-h6 mt-3">OR</h6>
+                        <div class="card-body booklanding-box">
+                            <h4 class="card-title booklanding-box-h4 text-center">Get Lifetime access for this book only
+                            </h4>
+                            <h5 class="booklanding-box-h5 my-4">$106<span class="booklanding-span2">/mo</span></h5>
+                            <div class="book-landing-box-button d-flex justify-content-center align-items-center">
+                                <button onclick="window.location.href='bookmenu.html'" type="button"
+                                    class="booklanding-box-btn">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- section 1 End -->
+    <!-- Website Footer Start -->
+    <div id="website-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <a href="index.html"><img class="website-footer-logo" src="/Website Logo/Logo.png" alt="Logo"></a>
+                </div>
+                <div class="col-sm-3 footer-column">
+                    <h2 class="website-footer-heading">About Us</h2>
+                    <li class="footer-links"><a href="#">Our Team</a></li>
+                    <li class="footer-links"><a href="#">Careers</a></li>
+                    <li class="footer-links"><a style="cursor: pointer;" data-bs-toggle="modal"
+                            data-bs-target="#example3Modal">Contact Us</a></li>
+                    <li class="footer-links"><a href="#">Become Affiliates</a></li>
+                </div>
+                <div class="col-sm-3 footer-column">
+                    <h2 class="website-footer-heading">Social</h2>
+                    <li class="footer-links"><a href="#">Facebook</a></li>
+                    <li class="footer-links"><a href="#">Linkdin</a></li>
+                    <li class="footer-links"><a href="#">Twitter</a></li>
+                    <li class="footer-links"><a href="#">Youtube</a></li>
+                </div>
+                <div class="col-sm-3 footer-column">
+                    <h2 class="website-footer-heading">Local</h2>
+                    <li class="footer-links"><a href="#">Privacy Policy</a></li>
+                    <li class="footer-links"><a href="#">Cookie Policy</a></li>
+                    <li class="footer-links"><a href="#">Terms Of Services</a></li>
+                </div>
+                <div class="col-sm-3">
+                    <h2 class="website-footer-heading">Resources</h2>
+                    <li class="footer-links"><a href="#">Blog</a></li>
+                    <li class="footer-links"><a href="#">Knowledge Base</a></li>
+                    <li class="footer-links"><a href="#">Blind 75</a></li>
+                    <li class="footer-links"><a href="#">Company Guides</a></li>
+                    <li class="footer-links"><a href="#">Answer Hub</a></li>
+                    <li class="footer-links"><a href="#">Newsletter</a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Website Footer End -->
+    <!-- Contact Us Popup Form Start -->
+    <div class="modal fade" id="example3Modal" tabindex="-1" aria-labelledby="example3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" style="border-radius: 0px;">
+                <div class="modal-header" style="border: 0;">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h1 class="modal-title1 text-center" id="example3ModalLabel">Contact Us</h1>
+                    <div class="modal-text text-center">
+                        <p class="modal-text-content">Send your message here and we will get back to you as soon as
+                            possible.</p>
+                    </div>
+                    <div class="inputboxesofcontactus d-flex flex-column">
+                        <input type="email" name="email" id="email" placeholder="Email*">
+                        <br>
+                        <input type="text" name="text" id="text" placeholder="Subject">
+                        <br>
+                        <textarea rows="10">Message</textarea>
+                    </div>
+                </div>
+                <div style="border: 0px;"
+                    class="modal-footer-contactus d-flex flex-column justify-content-center align-items-center">
+                    <button type="button" onclick="window.location.href='index.html'" class="create-account-btn">Send
+                        Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Us Popup Form End -->
+    <!-- Javascript File -->
+    <script src="/Javascript/script.js"></script>
+    <!-- Bootstrap Javascript File -->
+    <script src="Javascript/bootstrap.min.js"></script>
+</body>
+
+</html>
